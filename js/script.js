@@ -12,3 +12,13 @@ function changeBackgroundColor() {
     // Muda a cor de fundo do body
     document.body.style.backgroundColor = randomColor;
 }
+function preencherInformacoesDoFilme() {
+    
+    document.getElementById("movie-title").textContent = "Kill Bill";
+    document.getElementById("movie-year").textContent = "2004";
+    document.getElementById("movie-genre").textContent = "Ação";
+    document.getElementById("movie-director").textContent = "Quentin Tarantino";
+}
+
+// Chamar a função para preencher as informações do filme
+preencherInformacoesDoFilme();
