@@ -1,3 +1,25 @@
 body {
     transition: background-color 0.5s ease; /* Adiciona uma transição suave para a mudança de cor */
 }
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .card h2 {
+    margin-top: 12px;
+  }
+
+  .card p {
+    color: #555;
+  }
+
